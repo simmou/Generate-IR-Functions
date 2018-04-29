@@ -1,9 +1,9 @@
 # Generate-IR-Functions
 
 **cite** contains an implementation to generate IR functions as described in our ECIR 2014 [paper](http://ama.liglab.fr/Khronos/Docs/ECIR2014.pdf). If you find this code useful in your research, please consider citing:
-    @inproceedings{Goswami:2014,
 
-    author = {Goswami, Parantapa and Moura, Simon and Gaussier, Eric and Amini, Massih-Reza and Maes, Francis},
+    @inproceedings{Goswami:2014,
+        author = {Goswami, Parantapa and Moura, Simon and Gaussier, Eric and Amini, Massih-Reza and Maes, Francis},
         title = {Exploring the Space of IR Functions},
         booktitle = {Proceedings of the 36th European Conference on IR Research on Advances in Information Retrieval - Volume 8416},
         series = {ECIR 2014},
