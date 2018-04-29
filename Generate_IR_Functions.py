@@ -192,8 +192,8 @@ operators=l_Binary+l_Unary
 items = l_Binary+l_Var+l_Unary
 
 depth = int(raw_input("Enter max depth : ")) 
-userDepth = int(raw_input("Keep functions >= ? : "))
-save = int(raw_input("Save every ? valid results : "))
+userDepth = int(raw_input("Keep functions >= N : "))
+save = int(raw_input("Save every N valid results : "))
 print("\n")
 
 #Start calculations

@@ -1,6 +1,6 @@
 # Generate-IR-Functions
 
-**cite** contains an implementation to generate IR functions as described in our ECIR 2014 [paper](http://ama.liglab.fr/Khronos/Docs/ECIR2014.pdf). If you find this code useful in your research, please consider citing:
+Implementation that generate IR functions as described in our ECIR 2014 [paper](http://ama.liglab.fr/Khronos/Docs/ECIR2014.pdf). If you find this code useful in your research, please consider citing:
 
     @inproceedings{Goswami:2014,
         author = {Goswami, Parantapa and Moura, Simon and Gaussier, Eric and Amini, Massih-Reza and Maes, Francis},
@@ -26,9 +26,9 @@
 
 You will be asked for 3 integers:
 
-1. `Enter max depth :` Maximum number of symbols per function. E.g. `sqrt(x)-log(y)` contains 5 symbols : `sqrt, x, -, log and y`.
-2. `Keep functions >= N :` Write only functions that have more than N symbols
-3. `Save every N valid results : ` Save the last N valid functions discovered.
+* `Enter max depth :` Maximum number of symbols per function. E.g. `sqrt(x)-log(y)` contains 5 symbols : `sqrt, x, -, log and y`.
+* `Keep functions >= N :` Write only functions that have more than N symbols.
+* `Save every N valid results : ` Save the last N valid functions discovered.
 
 ### Dependencies
 * [sympy](http://www.sympy.org/fr/index.html)
