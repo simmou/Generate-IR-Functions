@@ -1,0 +1,9 @@
+(x/y)**(1/4)
+sqrt(x) - log(y)
+sqrt(x)*exp(-y)
+sqrt(x/sqrt(y))
+x**(1/4)/y
+sqrt(x)/sqrt(y)
+sqrt(x - log(y))
+sqrt(x*exp(-y))
+sqrt(sqrt(x)/y)
